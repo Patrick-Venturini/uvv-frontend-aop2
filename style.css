@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body {
+    /* box-sizing: border-box; */
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #1a1a1a;
+  }
+
+  .cabecalho_menu {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+
+  }
+
+  .cabecalho_menu_link {
+    text-decoration: none;
+    justify-content: space-between;
+    font-size: 20px;
+    color: white;
+  }
+
+  .ativo {
+    text-decoration: underline;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-grow: 1
+  }
+
+  .apresentacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+  }
+
+  .apresentacao_titulo {
+    color: black;
+    padding: 2%;
+    font-size: 2.5rem;
+  }
+
+  .concurso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .concurso_titulo {
+    color: black;
+    font-size: 2.3rem;
+    margin: 2%;
+  }
+
+  .concurso_conteudo {
+    color: black;
+    font-size: 1.8rem;
+  }
+
+  .fotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+
+  .algumas_fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:6%;
+  }
+
+  .fotos-fotos {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 80px;
+  }
+
+.formulario {
+    margin-bottom: 15px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #1a1a1a;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+
+.img-about {
+    margin: 2%;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: #1a1a1a;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: auto;
+}
